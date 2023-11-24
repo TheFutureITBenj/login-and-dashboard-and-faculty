@@ -1,1 +1,15 @@
-# login-and-dashboard-and-faculty
+# My School Website Faculty System Frontend
+
+![398278855_730758875053225_1026739043004011076_n](https://github.com/TheFutureITBenj/login-and-dashboard-and-faculty/assets/117925256/638347c1-0bdc-4761-bd59-9d16bd3491e2)
+![398284380_1750964922014604_8668224204736363335_n](https://github.com/TheFutureITBenj/login-and-dashboard-and-faculty/assets/117925256/cb3c2dde-f911-4109-9f05-db0a397f7d91)
+![405311329_883934826412447_3611503614190150449_n](https://github.com/TheFutureITBenj/login-and-dashboard-and-faculty/assets/117925256/0af14a94-490e-4479-8792-98d128dc3788)
+![398013686_320994324126060_6147000342922703784_n](https://github.com/TheFutureITBenj/login-and-dashboard-and-faculty/assets/117925256/504f86a6-d78e-48c7-b429-99c0285b12b9)
+![398264970_1041055430539300_2577522424042522400_n](https://github.com/TheFutureITBenj/login-and-dashboard-and-faculty/assets/117925256/41310d91-c9f4-4911-8aea-6926233d1cf7)
+![398484702_1016027329669102_4745629187870402280_n](https://github.com/TheFutureITBenj/login-and-dashboard-and-faculty/assets/117925256/9e20d44d-19b1-4d52-9278-e7c680ed8096)
+![387641442_2110233169328724_5250461281382630653_n](https://github.com/TheFutureITBenj/login-and-dashboard-and-faculty/assets/117925256/9d4516d2-e2ed-4270-9328-0896e621b659)
+![387649317_876614927125064_456413305779586467_n](https://github.com/TheFutureITBenj/login-and-dashboard-and-faculty/assets/117925256/98c4427f-5129-47b9-b02a-2d1d790f926a)
+![398264961_382543100774010_7464490661117442275_n](https://github.com/TheFutureITBenj/login-and-dashboard-and-faculty/assets/117925256/45090193-fb69-43f3-b26c-0df685e0cf39)
+![398257050_720607929981883_3862014031611204199_n](https://github.com/TheFutureITBenj/login-and-dashboard-and-faculty/assets/117925256/5ce7aca4-41b6-4f60-8b72-ba9d0fe1bd1d)
+![387642940_1386991788588883_5175962441657247976_n](https://github.com/TheFutureITBenj/login-and-dashboard-and-faculty/assets/117925256/97f717c8-1f18-4099-a60e-2eaa63fd8da0)
+![398176411_2094787154200824_8182824156539966116_n](https://github.com/TheFutureITBenj/login-and-dashboard-and-faculty/assets/117925256/2036a502-e722-493c-8969-8288d9cb8803)
+![397982294_1326505368049821_4353473379945944998_n](https://github.com/TheFutureITBenj/login-and-dashboard-and-faculty/assets/117925256/3476f833-a14c-4223-900c-597b40fa3aea)
