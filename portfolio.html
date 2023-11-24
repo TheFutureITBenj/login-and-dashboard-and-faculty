@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>portfolio</title>
+    <link rel="website icon" type="png" href="img/benjie.png">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <script src="https://kit.fontawesome.com/63735a423a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="img/benjie.png" class="logo"><i class="fa-brands fa-java fa-flip fa-2xl"></i><i class="fa-brands fa-square-js fa-flip fa-2xl"></i>
+            <ul id="sidemenu">
+                <li><a href="login.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>BSIT - 2nd year <i class="fa-solid fa-computer fa-bounce fa-2xl"></i><i class="fa-brands fa-html5 fa-bounce fa-2xl"></i></p>
+            <h1>Hi, I'm <span>Benjie<i class="fa-sharp fa-solid fa-code fa-flip fa-2xl"></i></span><br>Calvez From Caloocan</h1>
+        </div>
+    </div>
+</div>
+
+<!---------------About------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/phone.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a good timekeeper, always willing to learn new skills.
+                 I am friendly, helpful and polite, have a good sense of humour.
+                 I am able to work independently in busy environments and also within a team setting.
+                 I am outgoing and tactful, and able to listen effectively when solving problems.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Java Development</span><br>Designing Java Swing/GUI App Interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/iOs apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - Current</span><br>BSIT from Bestlink College of the Philippines.</li>
+                        <li><span>2018 - 2020</span><br>SHS - ICT from Bestlink College of the Philippines.</li>
+                        <li><span>2014 - 2018</span><br>JHS from Tala High School.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Java Swing GUI</span><br>Content Designing Interfaces</li>
+                        <li><span>Data Encoder</span><br>Accounting Staff</li>
+                        <li><span>Front-End Development</span><br>HTML, CSS, JAVASCRIPT</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------Services-------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-uikit fa-bounce fa-2xl"></i>
+                <h2>Java Design</h2>
+                <p>Java design patterns are divided into three categories - creational, structural, and behavioral design patterns.
+                 This article serves as an index for all the Java design pattern articles.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-code fa-flip fa-2xl"></i>
+                <h2>Web Design</h2>
+                <p>A web designer is responsible for creating the design
+                 and layout of a website or web pages.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop fa-shake fa-2xl"></i>
+                <h2>Graphic Design</h2>
+                <p>Graphic designers create visual concepts, using computer software or by hand, 
+                 to communicate ideas that inspire, inform, and captivate consumers.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------Portfolio-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/socmed.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This app connect you to the 
+                        talented people around the world.
+                        Download it from playstore.</p>
+                     <a href="#"><i class="fa-solid fa-link fa-flip" style="color: #0845eb;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/games.png">
+                <div class="layer">
+                    <h3>Online Gaming</h3>
+                    <p>This app connect you to the 
+                        talented people around the world.
+                        Download it from playstore.</p>
+                     <a href="#"><i class="fa-solid fa-link fa-flip" style="color: #0845eb;"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/shop.png">
+                <div class="layer">
+                    <h3>Shopping Platform</h3>
+                    <p>This app connect you to the 
+                        talented people around the world.
+                        Download it from playstore.</p>
+                     <a href="#"><i class="fa-solid fa-link fa-flip" style="color: #0845eb;"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------------Contact---------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> benjiecalvez025@gmail.com</p>
+                <p><a href="https://facebook.com/"></a><i class="fa-brands fa-facebook" style="color: #005eff;"></i> @Benjie Castillo Calvez</p>
+                <p><i class="fa-solid fa-phone" style="color: #ff004f;"></i> 09550913752</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/Sputinik.xoxo"><i class="fa-brands fa-facebook fa-bounce" style="color: #005cfa;"></i></a>
+                    <a href="https://www.youtube.com/channel/UCrADA52Tpq5dR3iE2E5i3Rw"><i class="fa-brands fa-youtube fa-bounce" style="color: #ff0000;"></i></a>
+                    <a href="https://facebook.com/Sputinik.xoxo"><i class="fa-brands fa-facebook-messenger fa-bounce" style="color: #005eff;"></i></a>
+                    <a href="https://www.instagram.com/benfvcknjie/"><i class="fa-brands fa-instagram fa-bounce" style="color: #fa7000;"></i></a>
+                    <a href="https://github.com/TheFutureITBenj"><i class="fa-brands fa-github fa-bounce" style="color: #ffffff;"></i></a>
+                </div>
+                <a href="img/Personal.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright" style="color: #ffffff;"></i> Benjie Calvez. Develop with <i class="fa-solid fa-code";></i> by him</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemeu.style.right = "0";
+    }
+    function closemenu() {
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

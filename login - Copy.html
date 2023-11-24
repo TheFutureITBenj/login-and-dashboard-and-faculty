@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Archipelago University</title>
+    <link rel="website icon" type="png" href="images/logo.png">
+    <!------Boxicons----->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!------My Css----->
+    <link rel="stylesheet" href="login.css">
+    <!------Font Style----->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+  
+  <div id="preloader">
+  <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+    <div class="wheel"></div>
+    <div class="hamster">
+      <div class="hamster__body">
+        <div class="hamster__head">
+          <div class="hamster__ear"></div>
+          <div class="hamster__eye"></div>
+          <div class="hamster__nose"></div>
+        </div>
+        <div class="hamster__limb hamster__limb--fr"></div>
+        <div class="hamster__limb hamster__limb--fl"></div>
+        <div class="hamster__limb hamster__limb--br"></div>
+        <div class="hamster__limb hamster__limb--bl"></div>
+        <div class="hamster__tail"></div>
+      </div>
+    </div>
+    <div class="spoke"></div>
+  </div>
+</div>
+
+    <header>
+      <img src="images/logo.png" class="logo">
+        <h2 class="banner">Archipelago <i class="fa-solid fa-graduation-cap"></i> University <i class="fa-solid fa-user-graduate"></i></h2>
+        <nav class="navigation">
+          <ul id="sidemenu">  
+            <a href="login.html">Homepage</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <button class="btnLogin-popup">Login</button>
+            <i class="fa-solid fa-xmark" style="color: #ebb32a;" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" style="color: #ebb32a;" onclick="openmenu()"></i>
+        </nav>
+    </header>
+
+    <!-------LOGIN MODAL----->
+    <div class="popup" id="popup">
+            <img src="images/check.png">
+            <h1>Login Success!</h1>
+            <p>Your account has been successfully login. Thanks!</p>
+            <a href="dashboard.html"><button type="submit" onclick="closePopup()">OK</button></a>
+          </div>
+
+
+      <!-------REGISTER MODAL---->
+      <div class="popup2" id="popup2">
+            <img src="images/check.png">
+            <h1>Thank You!</h1>
+            <p>Your details has been successfully submitted. Kindly login your account!</p>
+            <button type="submit" class="btn-closepop" onclick="closePopup2()">OK</button>
+          </div>
+
+    <div class="wrapper">
+        <span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+        <!-----LOGIN FORM---->
+      <div class="form-box login">
+        <h2>Login</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="text" required>
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="password" required>
+            <label>Password</label>
+          </div>
+          <div class="remember-forgot">
+            <label><input type="checkbox"> Remember me</label>
+            <a href="#">Forgot Password?</a>
+          </div>
+          <button type="submit" class="btn-close" onclick="openPopup()">Login</button>
+          
+          <div class="login-register">
+            <p>Don't have an account?<a href="#" class="register-link"> Register </a></p>
+          </div>
+        </form>
+      </div>
+
+      <!-------REGISTER FORM----->
+      <div class="form-box register">
+        <h2>Registration</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"><ion-icon name="person"></ion-icon></span>
+            <input type="text" required>
+            <label>Firstname</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="person"></ion-icon></span>
+            <input type="text" required>
+            <label>Lastname</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"></span>
+            <input type="number" required>
+            <label>Age</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"></span>
+            <input type="date" name="date" required>
+            <label>Birthday</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="text" required>
+            <label>Email Address</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input type="password" required>
+            <label>Password</label>
+          </div>
+          <div class="remember-forgot">
+            <label><input type="checkbox"> I agree to the terms & conditions</label>
+            
+          </div>
+          <button type="submit" class="btn-close2" onclick="openPopup2()">Register</button>
+          <div class="login-register">
+            <p>Already have an account?<a href="#" class="login-link"> Login</a></p>
+          </div>
+        </form>
+        <iframe src="https://www.youtube.com/embed/ZvQyeqeAkkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+    <script src="login.js"></script>
+    <script src="https://kit.fontawesome.com/63735a423a.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

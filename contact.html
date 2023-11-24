@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>AU | Contact</title>
+    <link rel="website icon" type="png" href="images/logo.png">
+    <!------Boxicons----->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!------My Css----->
+    <link rel="stylesheet" href="contact.css">
+    <!------Font Style----->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.png" class="logo">
+          <h2 class="banner">Archipelago <i class="fa-solid fa-graduation-cap"></i> University <i class="fa-solid fa-user-graduate"></i></h2>
+          <nav class="navigation">
+            <ul id="sidemenu">
+              <a href="login.html">Homepage</a>
+              <a href="about.html">About Us</a>
+              <a href="contact.html">Contact</a>
+              <i class="fa-solid fa-xmark" style="color: #ebb32a;" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" style="color: #ebb32a;" onclick="openmenu()"></i>
+          </nav>
+      </header>
+
+
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="container">
+            
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class='bx bxs-map'></i></div>
+                        <div class="text">
+                         <h3>Address</h3>
+                         <p>10980 Saret Street Road,<br>Batasan Hills, Quezon City,<br>20279</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class='bx bxl-facebook'></i></div>
+                        <div class="text">
+                         <h3>Social Media</h3>
+                         <p>@Archipelago Univesity</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class='bx bxs-phone'></i></div>
+                        <div class="text">
+                         <h3>Phone</h3>
+                         <p>0931 852 0279</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class='bx bxs-envelope'></i></div>
+                        <div class="text">
+                         <h3>Email</h3>
+                         <p>ArchipelagoUniversity@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" required>
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" required>
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required></textarea>
+                        <span>Type your message..</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" class="btn" value="Send" required>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="contact.js"></script>
+    <script src="https://kit.fontawesome.com/63735a423a.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

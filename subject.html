@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>AU | Dashboard</title>
+    <link rel="website icon" type="png" href="images/logo.png">
+    <!------Boxicons----->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!------My Css----->
+    <link rel="stylesheet" href="subject.css">
+    
+    <!------Font Style----->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+    
+    <header>
+        <img src="images/logo.png" class="logo">
+          <h2 class="banner">Archipelago <i class="fa-solid fa-graduation-cap"></i> University <i class="fa-solid fa-user-graduate"></i></h2>
+          <nav class="navigation">
+            <ul id="sidemenu">
+              <a href="faculty.html">Faculty</a>
+              <a href="about.html">About Us</a>
+              <a href="contact.html">Contact</a>
+              <a href="login.html">Logout</a>
+              <i class="fa-solid fa-xmark" style="color: #ebb32a;" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" style="color: #ebb32a;" onclick="openmenu()"></i>
+              
+              
+          </nav>
+      </header>
+
+      
+
+    <!-----SIDEBAR---->
+    <section id="sidebar" class="hide">
+        <a href="#" class="brand">
+            <i class="fa-solid fa-user-graduate"></i>
+            <span class="text">ARCHIPELAGO</span>
+        </a>
+        <ul class="side-menu top">
+            <li>
+                <a href="dashboard.html">
+                    <i class='bx bxs-dashboard' ></i>
+                    <span class="text">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="portfolio.html">
+                    <i class='bx bxs-group'></i>
+                    <span class="text">Personal Information</span>
+                </a>
+            </li>
+            <li >
+                <a href="subject.html">
+                    <i class='bx bxs-note' ></i>
+                    <span class="text">Subject & Classroom</span>
+                </a>
+            </li>
+            <li >
+                <a href="#">
+                    <i class='bx bxs-calendar'></i>
+                    <span class="text">Schedule</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bxs-message-dots'></i>
+                    <span class="text">Message</span>
+                </a>
+            </li>
+        </ul>
+            <ul class="side-menu">
+            <li>
+                <a href="#">
+                    <i class='bx bxs-cog'></i>
+                    <span class="text">Settings</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="logout">
+                    <i class='bx bxs-log-out-circle'></i>
+                    <span class="text">Logout</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <!-------CONTENT DASHBOARD----->
+
+    <section id="content">
+      <!----NAVBAR--->
+      <nav>
+        <i class='bx bx-menu'></i>
+        <a href="#" class="nav-link">Categories</a>
+        <form action="#">
+          <div class="form-input">
+            <input type="search" placeholder="Search...">
+            <button type="submit" class="search-btn"><i class='bx bx-search-alt-2'></i></button>
+          </div>
+        </form>
+        <input type="checkbox" hidden id="switch-mode" />
+        <label for="switch-mode" class="switch-mode"></label>
+        <a href="#" class="notification">
+          <i class='bx bxs-bell'></i>
+          <span class="num">8</span>
+        </a>
+        <a href="#">
+          <img src="images/logo.png" class="display">
+        </a>
+      </nav>
+      <!----NAVBAR--->
+
+      <!-----MAIN---->
+      <main>
+        <div class="head-title">
+          <div class="left">
+            <h2>Subject and Classroom</h2>
+            <ul class="breadcrumb">
+              <li>
+                <a href="#">Subject and Classroom</a>
+              </li>
+              <li><i class='bx bx-chevron-right'></i></li>
+              <li>
+                <a class="active" href="#">Home</a>
+              </li>
+            </ul>
+          </div>
+          <a href="images/Personal.docx" class="btn-download">
+            <i class='bx bxs-cloud-download' ></i>
+            <span class="text">Download PDF</span>
+          </a>
+        </div>
+
+        <ul class="box-info">
+          <li>
+            <img src="images/c1.png" >
+            <span class="text">
+              <h4>COMPUTER PROGRAMMING</h4>
+              <p>CC-100</p>
+            </span>
+          </li>
+          <li>
+            <img src="images/dbms.png" >
+            <span class="text">
+              <h4>DATABASE MANAGEMENT SYSTEM</h4>
+              <p>CC-101</p>
+            </span>
+          </li>
+          <li>
+            <img src="images/cs.png" >
+            <span class="text">
+              <h4>CYBER SECURITY PROTECTION</h4>
+              <p>CC-102</p>
+            </span>
+          </li>
+          <li>
+            <img src="images/dsa.png" >
+            <span class="text">
+              <h4>DATA STRUCTURES AND ALGORITHM</h4>
+              <p>CC-103</p>
+            </span>
+          </li>
+          <li>
+            <img src="images/ite.png" >
+            <span class="text">
+              <h4>IT ELECTIVE</h4>
+              <p>CC-104</p>
+            </span>
+          </li>
+          <li>
+            <img src="images/nm.png" >
+            <span class="text">
+              <h4>NETWORK MANAGEMENT</h4>
+              <p>CC-105</p>
+            </span>
+          </li>
+        </ul>
+        
+
+
+        <div class="table-data">
+          <div class="order">
+            <div class="head">
+              <h3>Recent Instructors</h3>
+              <i class='bx bx-search' ></i>
+              <i class='bx bx-filter' ></i>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Users</th>
+                  <th>Date Login</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="images/claire.png">
+                    <p>Alliah Claire</p>
+                  </td>
+                  <td>August-25-02</td>
+                  <td><span class="status completed">Completed</span></td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="images/troy.png">
+                    <p>Troy Dugan</p>
+                  </td>
+                  <td>March-28-01</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="images/chie.png">
+                    <p>Sheryl Florita</p>
+                  </td>
+                  <td>June-10-08</td>
+                  <td><span class="status completed">Completed</span></td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="images/andy.png">
+                    <p>Andy Adovas</p>
+                  </td>
+                  <td>May-19-05</td>
+                  <td><span class="status process">Process</span></td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="images/roldan.png">
+                    <p>Ronald Roldan</p>
+                  </td>
+                  <td>April-15-04</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="todo">
+            <div class="head">
+              <h3>Todo List</h3>
+              <i class='bx bx-plus'></i>
+              <i class='bx bx-filter' ></i>
+            </div>
+            <ul class="todo-list">
+              <li class="completed">
+                <i class='bx bxl-javascript'></i>
+                <p>JavaScript</p>
+                <i class='bx bx-dots-vertical-rounded'></i>
+              </li>
+              <li class="semi-completed">
+                <i class='bx bxl-css3' ></i>
+                <p>CSS</p>
+                <i class='bx bx-dots-vertical-rounded'></i>
+              </li>
+              <li class="completed">
+                <i class='bx bxl-java'></i>
+                <p>Java</p>
+                <i class='bx bx-dots-vertical-rounded'></i>
+              </li>
+              <li class="semi-completed">
+                <i class='bx bxl-html5'></i>
+                <p>HTML</p>
+                <i class='bx bx-dots-vertical-rounded'></i>
+              </li>
+              <li class="not-completed">
+                <i class='bx bxl-c-plus-plus'></i>
+                <p>C++ OOP</p>
+                <i class='bx bx-dots-vertical-rounded'></i>
+              </li>
+            </ul>
+          </div>
+
+          
+
+
+
+    
+    <script src="subject.js"></script>
+    <script src="https://kit.fontawesome.com/63735a423a.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

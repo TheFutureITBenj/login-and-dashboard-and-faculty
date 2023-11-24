@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>AU | About</title>
+    <link rel="website icon" type="png" href="images/logo.png">
+    <!------Boxicons----->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!------My Css----->
+    <link rel="stylesheet" href="about.css">
+    <!------Font Style----->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.png" class="logo">
+          <h2 class="banner">Archipelago <i class="fa-solid fa-graduation-cap"></i> University <i class="fa-solid fa-user-graduate"></i></h2>
+          <nav class="navigation">
+            <ul id="sidemenu">
+              <a href="login.html">Homepage</a>
+              <a href="#">About Us</a>
+              <a href="contact.html">Contact</a>
+              <i class="fa-solid fa-xmark" style="color: #ebb32a;" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" style="color: #ebb32a;" onclick="openmenu()"></i>
+          </nav>
+      </header>
+
+
+
+    <!---------------About------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Us</h1>
+                <p>Archipelago University's faculty is dedicated to academic excellence, innovation, and inclusivity, providing world-class education, conducting impactful research, and empowering diverse students. Their mission is to inspire future leaders, advance knowledge, and contribute to society through research and community engagement.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">History</p>
+                    <p class="tab-links" onclick="opentab('education')">Mission</p>
+                    <p class="tab-links" onclick="opentab('experience')">Vision</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Archipelago University in 2002</span><br>Archipelago University the serene and insipiring backdrop of a coastal archipelgo. In late 20th century, we are commited to fostering a culture of excellence education, research, and community engagement.</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Archipelago University Mission</span><br>Our mission is to serve, comprehensive and engaging platform that showcases the diverse expertise of our faculty members especially in our bachelloriate students.</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Vision of Our School</span><br>The vision is we belive that by fostering a culture, colaboration, innovation and continuous learning, Our faculty can inspired significantly to the academic and personal growth of our students.</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+
+    <script src="about.js"></script>
+    <script src="https://kit.fontawesome.com/63735a423a.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
